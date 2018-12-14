@@ -1,0 +1,140 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+.neikuan{
+	width: 7.02rem;
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+}
+header{
+	width: 100%;
+	height: 0.78rem;
+	background: #fff;
+
+}
+header .neikuan{
+	flex-direction: row;
+	padding-left: 0.32rem;
+}
+header h3{
+	color: #fe4192;
+	font-size: 0.28rem;
+    margin-top: 0.32rem;
+    font-style: italic;
+    font-weight: bold;
+}
+header span{
+	margin: 0.32rem 0.08rem 0rem 0.12rem;
+	color: #161616;
+	font-size: 0.3rem;
+}
+header .icon-xiangxia{
+	margin-top: 0.4rem;
+	color: #161616;
+	font-size: 0.2rem;
+}
+header .sou{
+	width: 3rem;
+	height: 0.64rem;
+	background: #f5f5f5;
+	border-radius: 0.32rem;
+	margin-left: 1rem;
+	margin-top: 0.14rem;
+	line-height: 0.64rem;
+}
+header .sou .icon-sousuo{
+	font-size: 0.32rem;
+	color: #d6d6d6;
+	margin-left: 0.28rem;
+}
+header .sou input{
+	width: 2rem;
+	height: 0.28rem;
+	border: none;
+	background: #f5f5f5;
+	font-size: 0.28rem;
+	color: #9c9c9c;
+}
+header .icon-saoma{
+	font-size: 0.4rem;
+	margin-left: 0.3rem;
+	margin-top: 0.22rem;
+	color: #2f2d2e;
+}
+main{
+	width: 100%;
+	margin-top: 0.18rem;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+main .listbox{
+	width: 0.08rem;
+	height: 0.3rem;
+	background: #ff4793;
+	position: absolute;
+	top: 0.24rem;
+	left: 0;
+}
+/* main .neikuan{
+	flex-direction: row;
+} */
+main .left{
+	width: 1.68rem;
+	display: flex;
+	flex-direction: column;
+	margin-right: 0.22rem;
+}
+main .left a p{
+
+	width: 1.68rem;
+	height: 0.8rem;
+	font-size: 0.28rem;
+	color: #817d80;
+	text-align: center;
+	line-height: 0.8rem;
+	background: #f8f8f8;
+}
+main .left a .box{
+	background: #fff;
+}
+main .right{
+	width: 5.4rem;
+	display: flex;
+	flex-direction: column;
+}
+main .right .column{
+	width: 5.4rem;
+	height: 0.7rem;
+	display: flex;
+	flex-direction: row;
+	line-height: 0.7rem;
+	border-bottom: 0.01rem solid #989898;
+}
+main .right .column a{
+	font-size: 0.24rem;
+	margin-right: 0.44rem;
+	color: #989898;
+}
+main .right .column .last{
+	margin-right: 0.75rem;
+}
+main .right .column i{
+	font-size: 0.24rem;
+    color: #989898;
+}
+main .right .hot{
+	width: 5.4rem;
+	height: 0.79rem;
+	border-bottom: 0.01rem solid #989898;
+}
+main .right .hot p{
+	width: 1rem;
+	height: 0.79rem;
+	font-size: 0.24rem;
+	line-height: 0.79rem;
+	color: #989898;
+}
